@@ -4,16 +4,16 @@ namespace SOTUKEN
 {
     public class HomePageCS : TabbedPage
     {
-
-        var stack = new StackLayout
-        {
-            Spacing = 20,
-            Children = {
-         new TopPageCS() {"Top"},
-         new RecordListCS() { "記録"}
-            }
-
-        };
+        public HomePageCS
+            // TabbedPageをMainPageとしてセットする
+            MainPage = new TabbedPage()
+            {
+                Children = {
+                   new TopPageCS("Top"),
+                   new RecordListCS("記録"),
+                   
+                }
+            };
+        }
     }
 }
-    
