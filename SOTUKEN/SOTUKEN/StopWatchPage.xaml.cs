@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace SOTUKEN
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class StopWatchPage : ContentPage
+    public partial class StopWatchPageCS : ContentPage
     {
-        public StopWatchPage()
+        public StopWatchPageCS()
         {
             InitializeComponent();
         }

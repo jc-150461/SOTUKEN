@@ -4,7 +4,8 @@
             xmlns:local="clr-namespace:SOTUKEN"   
              x:Class="SOTUKEN.HomePage">
     
-    //local追加
+  
+    
     <local:TopPage />
     <local:RecordListPage />
     <local:StopWatchPage />
