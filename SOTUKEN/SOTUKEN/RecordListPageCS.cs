@@ -7,10 +7,10 @@ using Xamarin.Forms;
 
 namespace SOTUKEN
 {
-    public class RecordListCS :ContentPage
+    public class RecordListPageCS :ContentPage
     {
 
-        public RecordListCS()
+        public RecordListPageCS()
         {
             Title = "記録";
             Icon = "TopIcon.png";
