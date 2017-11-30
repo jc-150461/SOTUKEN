@@ -12,8 +12,6 @@ namespace SOTUKEN
         public App()
         {
             InitializeComponent();
-
-            MainPage = new SOTUKEN.MainPage();
         }
 
         protected override void OnStart()
