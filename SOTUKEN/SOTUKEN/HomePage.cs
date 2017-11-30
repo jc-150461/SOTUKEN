@@ -9,7 +9,7 @@ namespace SOTUKEN
         {
             Children.Add(new TopPageCS());
             Children.Add(new RecordListCS());
-            Children.Add(new StopWatchPageCS());
+           
         }
     }
 }

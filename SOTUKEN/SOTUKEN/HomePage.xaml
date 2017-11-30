@@ -8,5 +8,5 @@
     
     <local:TopPage />
     <local:RecordListPage />
-    <local:StopWatchPage />
+   
 </TabbedPage>
