@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
 namespace SOTUKEN
 {
@@ -12,6 +13,7 @@ namespace SOTUKEN
         public App()
         {
             InitializeComponent();
+            MainPage = new HomePage();
         }
 
         protected override void OnStart()
