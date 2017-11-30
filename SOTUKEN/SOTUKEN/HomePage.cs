@@ -5,11 +5,15 @@ namespace SOTUKEN
     public class HomePageCS : TabbedPage
     {
 
-        public HomePageCS()
+        var stack = new StackLayout
         {
-            Children.Add(new TopPageCS());
-            Children.Add(new RecordListCS());
-           
-        }
+            Spacing = 20,
+            Children = {
+         new TopPageCS() {"Top"},
+         new RecordListCS() { "記録"}
+            }
+
+        };
     }
 }
+    
