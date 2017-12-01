@@ -14,13 +14,15 @@ namespace SOTUKEN
         public App()
         {
 
-            MainPage = new TopPage()
+            MainPage = new TabbedPage()
             {
-                Children = {
+                children = {
                    new TopPage("Top"),
                    new RecordListPage("記録")
                 }
+              
             };
+           
         }
     }
 }
