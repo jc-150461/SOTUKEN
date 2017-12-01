@@ -10,11 +10,11 @@ namespace SOTUKEN
     public class RecordListPageCS : ContentPage
     {
 
-        public RecordListPageCS()
+
+        public RecordListPageCS(string title)
         {
+            //タブに表示される文字列
             Title = "記録";
-            Icon = "TopIcon.png";
-            Padding = new Thickness(0, 20, 0, 0);
         }
     }
 }

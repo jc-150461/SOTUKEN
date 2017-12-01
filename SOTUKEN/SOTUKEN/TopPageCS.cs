@@ -11,12 +11,10 @@ namespace SOTUKEN
     public class TopPageCS : ContentPage
     {
 
-        public TopPageCS()
+        public TopPageCS(string title)
         {
+            //タブに表示される文字列
             Title = "Top";
-            Icon = "TopIcon.png";
-            Padding = new Thickness(0, 20, 0, 0);
         }
     }
 }
-
