@@ -7,7 +7,7 @@ using Xamarin.Forms;
 
 namespace SOTUKEN
 {
-    public class RecordListPageCS :ContentPage
+    public class RecordListPageCS : ContentPage
     {
 
         public RecordListPageCS()
@@ -15,19 +15,6 @@ namespace SOTUKEN
             Title = "記録";
             Icon = "TopIcon.png";
             Padding = new Thickness(0, 20, 0, 0);
-
-            Content = new StackLayout
-            {
-                Children ={
-                    new Label
-                    {
-                        Text = "Test",
-                        HorizontalOptions = LayoutOptions.Center,
-                        VerticalOptions = LayoutOptions.CenterAndExpand,
-                        FontSize = Device.GetNamedSize (NamedSize.Large, typeof(Label))
-                    }
-                }
-            };
         }
     }
 }
