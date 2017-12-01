@@ -14,11 +14,11 @@ namespace SOTUKEN
         public App()
         {
 
-            MainPage = new TopPageCS()
+            MainPage = new TopPage()
             {
                 Children = {
-                   new TopPageCS("Top"),
-                   new RecordListPageCS("記録")
+                   new TopPage("Top"),
+                   new RecordListPage("記録")
                 }
             };
         }
